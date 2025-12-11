@@ -10,7 +10,8 @@ This project presents an interactive Power BI dashboard built to analyze café s
 -The Cafe Sales Dashboard provides an end-to-end analysis of sales and quantity performance across various café items.
 -The dashboard helps understand which products drive the most revenue, how many items are sold, and overall spending behavior.
 
-🎯 Key Features & KPIs
+🎯 Key Features & KPIs:
+
     -KPIs Displayed
       -Total Sales
       -Total Quantity Sold
@@ -19,7 +20,8 @@ This project presents an interactive Power BI dashboard built to analyze café s
       -Interactive Tables for detailed item-level data
       -Dynamic interaction between visuals for deeper analysis
 
-📈 Visualizations Included
+📈 Visualizations Included:
+
   -Sum of Total Spent vs Item
     Helps identify top-earning products.
   -Count of Items vs Item
@@ -29,7 +31,8 @@ This project presents an interactive Power BI dashboard built to analyze café s
   -Supporting Tables & Filters
     Allow users to drill down further and gain detailed insights.
 
-🛠 Tools & Techniques Used
+🛠 Tools & Techniques Used:
+
   -Power BI Desktop
   -Power Query for data cleaning and transformation
   -DAX for KPI calculations
