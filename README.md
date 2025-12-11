@@ -8,11 +8,11 @@ It highlights revenue trends, customer behavior, and product performance using i
 🚀 Project Overview
 
 The dashboard provides insights into:
-    -Cafe product sales & demand
-    -Retail customer spending patterns
-    -Category-level performance
-    -Total revenue & quantity analysis
-    -Customer segmentation & ranking
+-Cafe product sales & demand
+-Retail customer spending patterns
+-Category-level performance
+-Total revenue & quantity analysis
+-Customer segmentation & ranking
 Built using Power Query, DAX, and Power BI interactive components, this project demonstrates end-to-end data transformation and visualization skills.
 
 🎯 Key KPIs & Features
