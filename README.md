@@ -162,3 +162,11 @@ Retail Store
     High-demand categories identified
     Easy navigation using tile slicers
     High-value customers clearly visible through KPIs and tables
+
+👨‍💻 Author
+
+Sameer Kumar
+
+Github: ('https://github.com/Sam818-alt')
+
+⭐ If this project helped you, don’t forget to star the repo!
