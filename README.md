@@ -1,40 +1,100 @@
 # Interactive-Cafe-Sales-Dashboard
 
-Cafe Sales – Power BI Dashboard
+  Cafe Sales & Retail Store – Power BI Dashboard
 
-This project presents an interactive Power BI dashboard built to analyze café sales performance.
--It highlights key metrics, customer buying patterns, and product-level insights using dynamic visuals, slicers, and data modeling.
+This multi-page Power BI dashboard analyzes business performance using two datasets — Cafe Sales and Retail Store.
+It highlights revenue trends, customer behavior, and product performance using interactive visuals, KPIs, slicers, and well-structured data modeling.
 
 🚀 Project Overview
 
--The Cafe Sales Dashboard provides an end-to-end analysis of sales and quantity performance across various café items.
--The dashboard helps understand which products drive the most revenue, how many items are sold, and overall spending behavior.
+The dashboard provides insights into:
+    -Cafe product sales & demand
+    -Retail customer spending patterns
+    -Category-level performance
+    -Total revenue & quantity analysis
+    -Customer segmentation & ranking
+Built using Power Query, DAX, and Power BI interactive components, this project demonstrates end-to-end data transformation and visualization skills.
 
-🎯 Key Features & KPIs:
+🎯 Key KPIs & Features
+Global KPIs: 
+    Total Sales
+    Total Quantity Sold
+Cafe Dashboard KPIs
+    Total Spent
+    Total Quantity
+    Interactive slicers & tables
+Retail Store KPIs
+    Count of Customer IDs
+    Distinct Count of Customer IDs
+    Total Sales (Sum of Total Spent)
 
-    -KPIs Displayed
-      -Total Sales
-      -Total Quantity Sold
-    -Interactive Elements
-      -Slicers (e.g., item filter, date filter, category filter — if applicable)
-      -Interactive Tables for detailed item-level data
-      -Dynamic interaction between visuals for deeper analysis
+Interactive Elements
+    Slicers in tiles format for all customer IDs
+    Dynamic visuals with cross-filtering
+    Detailed tables for ranking & comparison
+    Multiple dashboard pages
 
-📈 Visualizations Included:
+📄 Dashboard Pages
+📌 Page 1 — Cafe Sales Dashboard
+Visuals
+    Sum of Total Spent vs Item
+    Count of Items vs Item
+    Sum of Quantity Sold vs Item
+    Item-level sales performance table
+    Slicers for item/category/date (if applicable)
 
-  -Sum of Total Spent vs Item
-    Helps identify top-earning products.
-  -Count of Items vs Item
-    Shows how many times each item was purchased.
-  -Sum of Quantity Sold vs Item
-    Reveals high-demand products.
-  -Supporting Tables & Filters
-    Allow users to drill down further and gain detailed insights.
+Purpose
+    Identify top-selling and high-demand items
+    Understand purchasing frequency
+    Compare revenue between products
 
-🛠 Tools & Techniques Used:
+📌 Page 2 — Retail Store Dashboard
+This page provides deeper retail analytics by focusing on customer behavior and category performance.
 
-  -Power BI Desktop
-  -Power Query for data cleaning and transformation
-  -DAX for KPI calculations
-  -Interactive Visuals: bar charts, tables, slicers
-  -Excel/CSV Dataset (optional depending on your data source)
+📊 Visuals & Charts
+1. Customer Spending & Quantity Analysis
+    Sum of Total Spent vs Customer_ID
+    Count of Quantity vs Customer_ID
+    Shows which customers spend the most and buy the most items.
+
+2. Category-Level Analysis
+    Sum of Quantity vs Category
+    Highlights which product categories have highest demand.
+
+🎯 Retail Store KPIs (Cards)
+    Count of Customer_ID
+    Distinct Count of Customer_ID
+    Total Sales (Sum of Total Spent)
+These KPIs help understand customer volume and revenue generated.
+
+📋 Tables for Insightful Ranking
+    Top 3 Categories by Total Sales
+    Top 5 Customers by Total Spent
+    Complete Customer List with Total Spent
+These allow:
+    Quick identification of best-performing categories
+    Recognition of high-value customers
+    Understanding customer distribution
+
+🧩 Slicer
+    Customer_ID (Tile format)
+    Allows instant filtering of dashboard visuals per individual customer.
+
+🛠 Tools & Techniques Used
+    Power BI Desktop
+    Power Query for data cleaning & transformation
+    DAX for KPIs & calculated measures
+    Data Modeling (relationships between tables)
+    Visualization elements: bar charts, tables, slicers, KPIs, tile slicers
+
+📌 Insights Summary
+Café Sales
+    Identifies top revenue-generating products
+    Shows high-demand items by quantity
+    Highlights customer spending patterns
+
+Retail Store
+    Customers ranked by spending
+    High-demand categories identified
+    Easy navigation using tile slicers
+    High-value customers clearly visible through KPIs and tables
